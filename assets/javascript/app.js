@@ -144,18 +144,18 @@ function resetGame() {
 }
 
 
-    // Setting variables first!
+    // Setting variables LAST!
     var startScreen;
     var gameHTML;
-    var counter = 30;
+    var selecterAnswer; 
+    var correctTally = 0;
+    var incorrectTally = 0;
+    var unansweredTally = 0;
     var questionArray = ["What website do users send tweets on", "What does HTML stand for?", "What does CSS stand for?", "What is a boolean?", "var stands for?"];
     var answerArray = [ ["Facebook", "Twitter", "Steam", "Google",], ["Hyper Textual Marking Laundry", "Hyper Text Markup Language", "Hydrated Types Make Liquid", "Happy Typos Master Libraries"], ["Cascading Style Sheets", "Casablancas Super Soakers", "Controling Style Sheets", "Constable Selective Syntax",], ["A yes or no variable", "A true or false variable", "A string value", "A picnic in the park",], ["A variable", "A varsety team", "A variety of things", "A varied type of item",], ];
     var imageArray = ["<img class='center-block img-right' src='assets/images/twitter.jpeg'>", "<img class='center-block img-right' src='assets/images/html.jpeg'>", "<img class='center-block img-right' src='assets/images/css.jpeg'>", "<img class='center-block img-right' src='assets/images/boolean.jpeg'>", "<img class='center-block img-right' src='assets/images/variable.png'>"];
     var correctAnswers = ["B. Twitter", "B. Hyper Text Markup Language", "A. Cascading Style Sheets", "B. A true or false variable", "A. A variable"];
     var questionCounter = 0;
-    var selecterAnswer; 
+    var counter = 30;
     var theClock;
-    var correctTally = 0;
-    var incorrectTally = 0;
-    var unansweredTally = 0;
-    var clickSound;
+   

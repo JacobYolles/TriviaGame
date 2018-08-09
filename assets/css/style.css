@@ -1,6 +1,56 @@
 body {
     background-image: url("http://www.kinyu-z.net/data/wallpapers/136/1179013.jpg");
-    opacity: 0.9;
+    opacity: 0.91;
     };
  
 
+.jumbotron {
+  box-sizing: border-box;
+  height: 200px;
+
+}
+
+.summary-correct {
+    margin-top: 40px;
+  }
+  
+  .reset-button {
+    margin-top: 40px;
+  }
+  
+
+.answer:hover {
+  background: cadetblue;
+  text-emphasis-style: bold;
+}
+
+.answer {
+  height: 100px;
+  color: black;
+  padding-left: 100px;
+  padding-top: 25px;
+  border: 20px;
+}
+
+.timer-p {
+    margin-top: 0px;
+  }
+
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.img-wrong {
+    position: relative;
+    left: -200px;
+      top: 200px;
+    }
+
+
+.main-button-container {
+    margin-top: 175px;
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -63,6 +63,7 @@ function initialScreen() {
 // 1. What happens when the user loses as a result of a timeout.
 
 function generateTimeOutLoss() {
+  
     unansweredTally++;
     gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
     $(".mainArea").html(gameHTML);
@@ -116,7 +117,7 @@ function timerWrapper() {
     function thirtySeconds() {
         if (counter === 0) {
             clearInterval(theClock);
-            generateLossDueToTimeOut();
+            generateTimeOutLoss();
         }
         if (counter > 0) {
             counter--;

@@ -1,8 +1,10 @@
 body {
-    background-image: url("http://www.kinyu-z.net/data/wallpapers/136/1179013.jpg");
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
     opacity: 0.91;
     };
  
+
 
 .jumbotron {
   box-sizing: border-box;
